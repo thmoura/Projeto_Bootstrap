@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./lib/bootstrap.min.css">
 </head>
 <body>
-    <div class="carousel slide" data-bs-ride="carousel">
+    <div id="carousel-control" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inser">
             <div data-bs-interval="3000" class="carousel-item active">
                 <img src="https://cdn.pixabay.com/photo/2017/01/20/00/30/maldives-1993704_1280.jpg"/>
@@ -19,7 +19,7 @@
                 <img src="https://cdn.pixabay.com/photo/2014/08/15/11/29/beach-418742_1280.jpg"/>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button">
+        <button data-bs-target="#carousel-control" data-bs-slide="prev" class="carousel-control-prev" type="button">
             <span class="carousel-control-prev-icon"></span>
         </button>
     </div>
